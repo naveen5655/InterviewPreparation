@@ -1,0 +1,21 @@
+week1: Time complexity and Bit Masking
+1. https://leetcode.com/problems/base-7
+2. https://leetcode.com/problems/convert-a-number-to-hexadecimal/
+3. https://leetcode.com/problems/gray-code/
+4. https://leetcode.com/problems/counting-bits/
+5. https://leetcode.com/problems/find-the-duplicate-number/
+6. https://leetcode.com/problems/missing-number/
+7. https://leetcode.com/problems/single-number/
+8. https://leetcode.com/problems/single-number-ii/
+9. https://leetcode.com/problems/prison-cells-after-n-days/
+10. https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts\
+11. https://leetcode.com/problems/maximum-product-of-word-lengths
+12. https://leetcode.com/problems/get-maximum-in-generated-array/
+13. https://leetcode.com/problems/minimum-non-zero-product-of-the-array-elements/
+14. https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60/
+15. https://leetcode.com/problems/count-good-numbers/
+16. https://leetcode.com/problems/super-pow/
+17. https://leetcode.com/problems/container-with-most-water/
+18. https://leetcode.com/problems/subsets/
+19. https://leetcode.com/problems/cinema-seat-allocation/
+20. https://leetcode.com/problems/continuous-subarray-sum/
