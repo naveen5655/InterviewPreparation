@@ -19,3 +19,14 @@ week1: Time complexity and Bit Masking
 18. https://leetcode.com/problems/subsets/
 19. https://leetcode.com/problems/cinema-seat-allocation/
 20. https://leetcode.com/problems/continuous-subarray-sum/
+-------------------------------------------------------------------------------------------------->
+week2: Arrays
+1. Swap Two Numbers
+2. Largest element in the array
+3. https://leetcode.com/problems/number-of-good-pairs/
+4. https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/
+5. https://leetcode.com/problems/shuffle-the-array/
+6. https://leetcode.com/problems/find-the-highest-altitude/
+7. Check if array is palindrome
+8. https://leetcode.com/problems/two-sum
+9. https://leetcode.com/problems/count-good-meals/
