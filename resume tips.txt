@@ -1,0 +1,38 @@
+Sections Include in resume:
+1. Education Background with grad year and gcp
+2. Experience (Internship)
+3. Projects
+4. Accomplishments 
+- Coding participation
+- Hackthon
+- Acadamincs
+5.* Publications
+6. Skillset
+
+Educational Background:
+1. recent first 
+2. Add CGPA
+3. done exceptional in your academics
+4. Keep it one or two points
+
+Experiences and Projects:
+1. Keep your best Internships/projects in top
+2. don't add more than 2 Internships and  projects.
+3. describe about project and Internship in 2-3 points in points.
+- my roles and responsibilities 
+- technical domain
+- we have improved the accury, Userinterface and backend work
+4. Do mention the github link of your project( deployment link is better)
+
+
+Accomplishments and Achievements:
+1. describe your achievements in x,y,z format(Only technical related)
+2. Hackthons, coding competations
+3. rank, problems solved 
+4. cp profiles - codechef, codeforces and leetcode
+5. ** Scored a rank of X on a contest Y hosted by Z platform
+6. keep course certification
+
+Skills to be mentioned in a Resume:
+1.Add skills based on the job profile.
+2.Don't add those skills which you are not confident enough.
