@@ -30,3 +30,19 @@ week2: Arrays
 7. Check if array is palindrome
 8. https://leetcode.com/problems/two-sum
 9. https://leetcode.com/problems/count-good-meals/
+10.https://leetcode.com/problems/maximum-subarray/
+11.https://leetcode.com/problems/ones-and-zeroes/
+12. https://leetcode.com/problems/sort-colors/
+13. https://leetcode.com/problems/my-calendar-i/
+14. https://leetcode.com/problems/find-peak-element/
+15. https://leetcode.com/problems/median-of-two-sorted-arrays/
+16. https://leetcode.com/problems/merge-sorted-array/
+------------------: Sliding Window
+1. https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/
+Optional:
+1. https://practice.geeksforgeeks.org/problems/find-the-closest-pair-from-two-arrays4215/1
+2. https://leetcode.com/problems/number-of-excellent-pairs/
+3. https://leetcode.com/problems/find-all-anagrams-in-a-string/
+4. https://practice.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1
+5. https://practice.geeksforgeeks.org/problems/longest-repeating-character-replacement/1
+6. https://leetcode.com/problems/maximum-alternating-subsequence-sum/
