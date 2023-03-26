@@ -37,8 +37,11 @@ week2: Arrays
 14. https://leetcode.com/problems/find-peak-element/
 15. https://leetcode.com/problems/median-of-two-sorted-arrays/
 16. https://leetcode.com/problems/merge-sorted-array/
+17. https://leetcode.com/problems/Intersection-of-two-arrays/
+18. Common elements
 ------------------: Sliding Window
 1. https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/
+2. https://leetcode.com/problems/sliding-window-maximum/
 Optional:
 1. https://practice.geeksforgeeks.org/problems/find-the-closest-pair-from-two-arrays4215/1
 2. https://leetcode.com/problems/number-of-excellent-pairs/
@@ -46,3 +49,33 @@ Optional:
 4. https://practice.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1
 5. https://practice.geeksforgeeks.org/problems/longest-repeating-character-replacement/1
 6. https://leetcode.com/problems/maximum-alternating-subsequence-sum/
+------------------------------------------------------------------------------------------------------------>
+week3: 2D arrays and Matrix traversals
+1. https://leetcode.com/problems/3sum/
+2. https://leetcode.com/problems/3sum-closest/
+3. https://leetcode.com/problems/search-a-2d-matrix/
+4. https://leetcode.com/problems/search-a-2d-matrix-ii/
+5. https://leetcode.com/problems/4sum/
+6. https://leetcode.com/problems/richest-customer-wealth/
+7. https://leetcode.com/problems/spiral-matrix/
+8. https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/
+9. https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/
+10. https://leetcode.com/problems/sort-the-students-by-their-kth-score/
+11. https://leetcode.com/problems/spiral-matrix-ii/
+12. https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/
+13. https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square/
+14. https://leetcode.com/problems/interval-list-intersections/
+15. https://leetcode.com/problems/diagonal-traverse/
+16. https://leetcode.com/problems/delete-greatest-value-in-each-row/
+17. https://leetcode.com/problems/largest-local-values-in-a-matrix/
+18. https://leetcode.com/problems/flipping-an-image/
+19. https://leetcode.com/problems/transpose-matrix/
+20. https://leetcode.com/problems/max-increase-to-keep-city-skyline/
+21. https://leetcode.com/problems/number-of-laser-beams-in-a-bank/
+22. https://leetcode.com/problems/candy-crush/
+23. https://leetcode.com/problems/lucky-numbers-in-a-matrix/
+--------------------------------------------------------------------------------------------------------------------->
+week4: Linkedlist
+
+
+
