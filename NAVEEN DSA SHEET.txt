@@ -39,9 +39,6 @@ week2: Arrays
 16. https://leetcode.com/problems/merge-sorted-array/
 17. https://leetcode.com/problems/Intersection-of-two-arrays/
 18. Common elements
-------------------: Sliding Window
-1. https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/
-2. https://leetcode.com/problems/sliding-window-maximum/
 Optional:
 1. https://practice.geeksforgeeks.org/problems/find-the-closest-pair-from-two-arrays4215/1
 2. https://leetcode.com/problems/number-of-excellent-pairs/
@@ -74,8 +71,52 @@ week3: 2D arrays and Matrix traversals
 21. https://leetcode.com/problems/number-of-laser-beams-in-a-bank/
 22. https://leetcode.com/problems/candy-crush/
 23. https://leetcode.com/problems/lucky-numbers-in-a-matrix/
+------------------: Sliding Window
+1. https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/
+2. https://leetcode.com/problems/sliding-window-maximum/
+3. https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/
 --------------------------------------------------------------------------------------------------------------------->
 week4: Linkedlist
-
+1. https://leetcode.com/problems/middle-of-the-linked-list/
+2. https://leetcode.com/problems/reverse-linked-list/
+3. https://leetcode.com/problems/delete-node-in-a-linked-list/
+4. https://leetcode.com/problems/palindrome-linked-list/
+5. https://leetcode.com/problems/linked-list-cycle/
+6. https://leetcode.com/problems/linked-list-cycle-ii/
+7. https://leetcode.com/problems/remove-linked-list-elements/
+8. https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
+9. https://leetcode.com/problems/add-two-numbers/
+10. https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/
+11.Reverse Nodes in k-Group
+12.Design HashSet
+13.Design HashMap
+14.Swap Nodes in Pairs
+15.LRU Cache
+16.Copy List with Random Pointer
+17.Design Browser History
+18.Find length of Loop in Linked List
+19.Check linked list with a loop is palindrome or not
+20.Insert into a Sorted Circular Linked List
+21.Design Circular Deque
+22. Design Circular Queue
+--------------------------------> Stacks--------------------------->
+1.Reverse Integer
+2. Valid Parentheses
+3.Baseball Game
+4. Design a Stack With Increment Operation
+5. Previous Smaller Element
+6. Next Greater Element I
+7.Remove K Digits
+8.Next Smaller Element
+9.Next Greater Element II
+10.Previous Greater Element
+11.Daily Temperatures
+12.Remove All Adjacent Duplicates In String
+13. Min Stack
+14.Decode String
+15.Remove All Adjacent Duplicates in String II
+16.Product of the Last K Numbers
+-------------------------------------------------------------------------------------------------------------------->
+Week5: Queues
 
 
