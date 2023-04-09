@@ -116,7 +116,26 @@ week4: Linkedlist
 14.Decode String
 15.Remove All Adjacent Duplicates in String II
 16.Product of the Last K Numbers
--------------------------------------------------------------------------------------------------------------------->
-Week5: Queues
-
-
+------------------ -------------------------------------------------------------------------------------------------->
+Week5: Queues and Recursions
+1. Moving Average from Data Stream
+2.Number of Recent Calls
+3.Pow(x, n)
+4.Valid Palindrome
+5.Palindrome Linked List
+6.Decode String
+7.Fibonacci Number
+8. Climbing Stairs
+9.N-th Tribonacci Number
+10.Min Cost Climbing Stairs
+11.N-Queens
+12.Permutations
+13.Letter Combinations of a Phone Number
+14.Subsets
+15. Sum of All Subset XOR Totals
+16.Generate Parentheses
+17. Implement Stack using Queues
+18.First Unique Character in a stream of characters
+19. Sliding Window Maximum
+20.Implement Queue using Stacks
+----------------------------------------------------------------------------->
