@@ -139,3 +139,23 @@ Week5: Queues and Recursions
 19. Sliding Window Maximum
 20.Implement Queue using Stacks
 ----------------------------------------------------------------------------->
+week6: Sorting
+1. Bubble Sort
+2. Save Patients
+3. The Best Player
+4. Monk and Nice Strings
+5. https://leetcode.com/problems/insertion-sort-list/
+6. https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/
+7. https://leetcode.com/problems/find-pivot-index/
+8. https://leetcode.com/problems/running-sum-of-1d-array/
+9. https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits/
+10. https://leetcode.com/problems/merge-sorted-array/
+11. https://practice.geeksforgeeks.org/problems/inversion-of-array-1587115620/1
+12. https://www.hackerearth.com/problem/algorithm/maximum-sum-of-building-speed-afe07cd7-043660fd/
+13. Sam Height
+14. https://leetcode.com/problems/squares-of-a-sorted-array/
+15. Merge Sort
+16. https://leetcode.com/problems/sort-array-by-parity/
+17. https://leetcode.com/problems/kth-largest-element-in-an-array/
+18. Old keypad in a foreign land
+--------------------------------------------------------------------------------->
