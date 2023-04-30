@@ -1,0 +1,66 @@
+Pre-order:
+void preOrderTraversal(TreeNode* root) {
+    if (!root) {
+        return;
+    }
+
+    stack<TreeNode*> st;
+    st.push(root);
+
+    while (!st.empty()) {
+        TreeNode* node = st.top();
+        st.pop();
+        cout << node->val << " ";
+
+        if (node->right) {
+            st.push(node->right);
+        }
+        if (node->left) {
+            st.push(node->left);
+        }
+    }
+}
+--------------------------->
+In-order:
+void inOrderTraversal(TreeNode* root) {
+    if (!root) {
+        return;
+    }
+
+    stack<TreeNode*> st;
+    TreeNode* node = root;
+
+    while (!st.empty() || node) {
+        if (node) {
+            st.push(node);
+            node = node->left;
+        } else {
+            node = st.top();
+            st.pop();
+            cout << node->val << " ";
+            node = node->right;
+        }
+    }
+}
+------------------------------------>
+Postorder:
+vector<int> postOrderTraversal(TreeNode* root) {
+    vector<int> result;
+    stack<TreeNode*> st;
+    TreeNode* prev = nullptr;
+    while (root || !st.empty()) {
+        while (root) {
+            st.push(root);
+            root = root->left;
+        }
+        TreeNode* curr = st.top();
+        if (!curr->right || curr->right == prev) {
+            result.push_back(curr->val);
+            st.pop();
+            prev = curr;
+        } else {
+            root = curr->right;
+        }
+    }
+    return result;
+}
