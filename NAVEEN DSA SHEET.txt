@@ -159,3 +159,25 @@ week6: Sorting
 17. https://leetcode.com/problems/kth-largest-element-in-an-array/
 18. Old keypad in a foreign land
 --------------------------------------------------------------------------------->
+week7: Trees
+1.https://leetcode.com/problems/binary-tree-preorder-traversal/
+2. https://leetcode.com/problems/minimum-depth-of-binary-tree/
+3. https://leetcode.com/problems/maximum-depth-of-binary-tree/
+4. https://leetcode.com/problems/same-tree/
+5. https://leetcode.com/problems/array-partition/
+6. https://leetcode.com/problems/relative-sort-array/
+7. https://leetcode.com/problems/reveal-cards-in-increasing-order/
+8. https://leetcode.com/problems/h-index/
+9. https://leetcode.com/problems/set-mismatch/
+10. https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
+11. https://leetcode.com/problems/missing-number/
+12. https://leetcode.com/problems/n-ary-tree-preorder-traversal/
+13. https://leetcode.com/problems/binary-tree-inorder-traversal/
+14. https://leetcode.com/problems/average-of-levels-in-binary-tree/
+15. https://leetcode.com/problems/maximum-depth-of-n-ary-tree/
+16. https://leetcode.com/problems/binary-tree-postorder-traversal/
+17. https://leetcode.com/problems/n-ary-tree-postorder-traversal/
+18.https://leetcode.com/problems/n-ary-tree-level-order-traversal/
+19. https://leetcode.com/problems/binary-tree-level-order-traversal/
+20. https://leetcode.com/problems/balance-a-binary-search-tree/
+21. https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
