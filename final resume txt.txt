@@ -1,0 +1,246 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{fancyhdr}
+ \usepackage{xcolor}
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{BADISA NAVEEN}{ \urlstyle{same}\href| \\
+\href{mailto: klucse2000031509@gmail.com}{ klucse2000031509@gmail.com} | +916300292346 | \href{https://www.linkedin.com/in/badisanaveen/}{Linkedin-badisanaveen} |
+\href{https://github.com/naveen5655}{Github-naveen5655}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Education} 
+\subsection{K L UNIVERSITY}
+\descript{COMPUTER SCIENCE AND ENGINEERING}
+\location{Grad.April 2024 | CGPA: 9.58}
+\sectionsep
+
+\subsection{Sri Chaitanya }
+\descript{Andhra Pradesh Board of Intermediate Education}
+\location{Grad.April 2020 | CGPA: 9.82}
+\sectionsep
+
+\subsection{Sri Chaitanya}
+\descript{Andhra Pradesh Board of Seconday Education}
+\location{Grad.March 2020 | CGPA: 9.8}
+\sectionsep
+
+\section{Links} 
+Codechef: //\href{https://www.codechef.com/users/klu_2000031509}{\bf Badisa Naveen} \\
+Leetcode:// \href{https://leetcode.com/KLU_2000031509/}{\bf Badisa Naveen} \\
+Codeforces://  \href{https://codeforces.com/profile/Klu_2000031509}{\bf Badisa Naveen} \\
+stopstalk://  \href{https://www.stopstalk.com/user/profile/BadisaNaveen5655}{\bf BadisaNaveen5655} \\
+Trailblazer:// \href{https://trailblazer.me/id/bnaveen12}{\bf bnaveen12} \\
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+\subsection{Undergraduate}
+Object Oriented Programming \\
+Analysis and Design of Algorithms \\
+Data Structures \\
+Cloud Computing \\
+Operating Systems \\
+Unix Tools and Scripting \\
+Defending Computer Networks \\
+AWS and  Google cloud.\\
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\subsection{Languages:}
+\textbullet{}C/C++ (Advanced)\\
+\textbullet{}Python and Java (Intermediate)\\
+\textbullet{}HTML \quad  \textbullet{}CSS\\
+\subsection{ Frameworks:}
+\textbullet{}React.js  \textbullet{}Node.js \textbullet{}Express.js\\
+\textbullet{}Django \textbullet{}Spring Boot \textbullet{}Flask\\
+\textbullet{}Enterprise JavaBeans (EJB)\\
+\subsection{Tools:}
+\textbullet{}Git  \textbullet{}Linux  \textbullet{}Windows\\
+ \textbullet{}Spring Tool Suite  \textbullet{}LaTeX \\
+  \textbullet{}Postgres \textbullet{}MySQL\textbullet{} Mongo DB\\
+\vspace{0.2cm}
+\subsection{OTHERS:}
+\textbullet{} Motivator\\
+\textbullet{} Debate and Public Speaker\\
+\textbullet{} Youtube - \href{https://www.youtube.com/watch?v=6XEiTAzZMOo}{\bf Demo video Link}\\
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{SMARTINTERNZ}}
+\descript{ | Salesforce Developer Internship  }
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item I learned about Relationship & Process Automation Lightning Web Components and API Salesforce Fundamentals Apex Testing and Apex Triggers.
+\item certificate Link - \href{https://smartinternz.com/internships/salesforce_certificates/86a08a8cd53357d3fb437a6810af55cc}{\bf BadisaNaveen}
+\end{tightemize}
+\sectionsep
+
+\sectionsep
+
+\runsubsection{MICROSOFT}
+\descript{| futureready Talent }
+\location{jan 2022 – mar 2022 }
+\begin{tightemize}
+\item In this internship I learned a lot about Creating of Azure Virtual machine Azure,CosmosDB, Jenkins, Splunk, and selenium and their uses.
+\item At the end of this internship we were supposed to do a project for that I chose event management.
+\item I hosted my event management website using Microsoft Azure static web apps
+\item Github Link - \href{https://github.com/naveen5655/event-management-system}{\bf    Eventmanagement} 
+\end{tightemize}
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{PROJECT(S)}
+\runsubsection{Ecommerce website}
+\descript{| Reactjs | Node.js | Express.js | MongoDB }
+\begin{tightemize}
+\item  Ecommerce stands for electronic commerce and refers to a digital
+platform and a business model where you can buy or sell products
+online
+\item Youtube - \href{https://www.youtube.com/watch?v=6XEiTAzZMOo}{\bf Ecommerce website Demo video}\\
+\end{tightemize}
+\sectionsep
+
+\runsubsection{BANKING SYSTEM}
+\descript{|  Django | AWS | MYSQL |  BOOTSTRAP}
+\begin{tightemize}
+\item The banking system allows the users to deposit and withdraw the amount
+\item I Deployed this project in AWS using
+ec2 with providing a domain name for the website
+\item Github Link - \href{https://github.com/naveen5655/BANKING-SYSTEM}{\bf Bankingsystem}
+\end{tightemize}
+\sectionsep
+
+
+\runsubsection{STOCK MANAGEMENT}
+\descript{|  SPRINGBOOT | JSP | MYSQL}
+\begin{tightemize}
+\item Stock management is used for managing the stock of products in their warehouse or in the shops
+\item I used Java Server Pages(JSP) as my frontend 
+\item Github Link - \href{https://github.com/naveen5655/Stock-management-using-springboot}{\bf Stock management}
+\end{tightemize}
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{ACHIEVEMENT} 
+\runsubsection{COMPETITIVE PROGRAMMING}
+\begin{tightemize}
+\item Solved 600+ problems on Codechef/Codeforces/Leetcode \href{https://www.stopstalk.com/user/profile/BadisaNaveen5655}{\bf -Link}\\
+\item Ranked 282/21920 participants in Codechef July Long challenge 2021\\
+ \item Codechef SnackDown 2021  - \href {https://www.codechef.com/certificates/public/4ba5ddb}{\bf User Certificate Link | Codechef}
+\end{tightemize}
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{CERTIFICATIONS}
+\vspace{0.3cm}
+\begin{tightemize}
+\item AWS Solutions Architect Associate score: (846/1000) \href{https://www.credly.com/badges/4ca67bd7-f3c5-46d0-8e18-e635a6256d4d/public_url}{\bf - Link}\\
+\item AWS Developer Associate Certified score: (750/1000) \href{https://www.credly.com/badges/e8a3aa5d-7099-410f-aef6-e282f6845d3d/public_url}{\bf - Link}\\
+\item AWS Cloud Practitioner Certified score: (771/1000) \href{https://www.credly.com/badges/e7639f6e-3869-40b9-9bbd-cae703268050/public_url}{\bf - Link}\\
+\item  Google Certified Associate Cloud Engineer  \href{https://www.credential.net/26a5e8f0-e594-4973-9cd1-9483628b962e}{\bf - Link} \\
+
+\end{tightemize}
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
