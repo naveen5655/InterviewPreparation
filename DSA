@@ -1,3 +1,8 @@
+Incomplete:
+1. Time complexity
+2. Math1 and math2 , Implementation
+------------------------------------->
+
 Topic-1: Arrays and Maths
 Warmup Questions
 1. https://leetcode.com/problems/fizz-buzz/
@@ -20,4 +25,4 @@ Warmup Questions
 1. https://leetcode.com/problems/richest-customer-wealth/
 2. https://leetcode.com/problems/running-sum-of-1d-array/
 3. https://leetcode.com/problems/special-positions-in-a-binary-matrix/description/
-4. https://leetcode.com/problems/convert-1d-array-into-2d-array/description/
+4. https://leetcode.com/problems/convert-1d-array-into-2d-array/description/ (I)
