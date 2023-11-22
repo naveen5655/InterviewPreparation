@@ -16,11 +16,17 @@ Topic-3: Bitmanupulations:
 2. Finding Akela in Unsorted Array- https://leetcode.com/problems/single-number/description/
 
 ---------------------------------------------------------------------------------------------->
-Topic-4: Sorting 
+Topic-4: Two pointers:
+1.Union of two arrays
+
+
+
+------------------------------------------------------------------------------------->
+Topic-5: Sorting 
 1. Inversion count
 2. Sort Colors - https://leetcode.com/problems/sort-colors/description/
 -------------------------------------------------------------------------------------------------->
-Topic-4: searching
+Topic-6: searching
 1. Count number of zeros - https://www.geeksforgeeks.org/problems/count-the-zeros2550/1
 2. Matrix Search - https://www.interviewbit.com/problems/matrix-search/
 3. Index Of Peak Element - https://leetcode.com/problems/find-peak-element/description/
@@ -34,5 +40,5 @@ Topic-4: searching
 11. koko_eating_banana - https://leetcode.com/problems/koko-eating-bananas/description/
 
 ------------------------------------------------------------------------------------->
-Topic-6: Graphs
+Topic-7: Graphs
 1. https://leetcode.com/problems/island-perimeter/description/
