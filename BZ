@@ -18,12 +18,13 @@ Topic-3: Bitmanupulations:
 ---------------------------------------------------------------------------------------------->
 Topic-4: Two pointers:
 1.Union of two arrays
+2. Intersection of two arrays
 
 
 
 ------------------------------------------------------------------------------------->
 Topic-5: Sorting 
-1. Inversion count
+1. Inversion count (I)
 2. Sort Colors - https://leetcode.com/problems/sort-colors/description/
 -------------------------------------------------------------------------------------------------->
 Topic-6: searching
