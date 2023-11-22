@@ -11,7 +11,12 @@ Topic-2: Logical Building
 1. https://www.geeksforgeeks.org/problems/find-first-repeated-character4108/1
 2. https://codeforces.com/problemset/problem/822/A
 ---------------------------------------------------------------------------------------------------->
-Topic-3: Sorting 
+Topic-3: Bitmanupulations:
+1. Count Set Bits - https://www.geeksforgeeks.org/count-set-bits-in-an-integer/
+
+
+---------------------------------------------------------------------------------------------->
+Topic-4: Sorting 
 1. Inversion count
 2. Sort Colors - https://leetcode.com/problems/sort-colors/description/
 -------------------------------------------------------------------------------------------------->
@@ -27,5 +32,5 @@ Topic-4: searching
 9. Median of Two Sorted Arrays - https://leetcode.com/problems/median-of-two-sorted-arrays/description/ (I)
 
 ------------------------------------------------------------------------------------->
-Topic-5: Graphs
+Topic-6: Graphs
 1. https://leetcode.com/problems/island-perimeter/description/
