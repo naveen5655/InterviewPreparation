@@ -59,6 +59,7 @@ Homework Questions
 2. https://leetcode.com/problems/rectangle-overlap/description/ (I)
 3. https://leetcode.com/problems/excel-sheet-column-title/description/
 4. https://leetcode.com/problems/excel-sheet-column-number/description/
+----------------------------------------------------------------------------------------->
 Topic-4: Math-2
 Assignment Questions
 1. https://leetcode.com/problems/unique-paths/
@@ -101,9 +102,13 @@ Topic - 7: Searching2
 2. https://leetcode.com/problems/smallest-good-base/description/ (I)
 4. https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/description/
 -------------------------------------------------------------------------------------------------------------------------->
-Topic-8: Sorting -1 & 2
+Topic-8: Sorting -1 
 1. https://leetcode.com/problems/kth-largest-element-in-an-array/description/
 2. https://practice.geeksforgeeks.org/problems/inversion-of-array-1587115620/1   ( Inversion count)
+3. https://leetcode.com/problems/reverse-pairs/description/ ( reverse pair)
+
+---------------------------------------------------------------------------------->
+Topic-9: Sorting -2
 3. https://leetcode.com/problems/sort-colors/description/  ( Sort colors)
 4. https://leetcode.com/problems/k-closest-points-to-origin/description/  (973. K Closest Points to Origin)  (I)
 5. https://leetcode.com/problems/majority-element/description/  (169. Majority Element)
