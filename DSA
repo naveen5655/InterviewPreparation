@@ -1,8 +1,7 @@
 Incomplete:
 1. TC
-2. Sorting
-3. Two pointers
-4. Hashing
+2. Two pointers
+3. Hashing
 ------------------------------------->
 Topic-1: Arrays and Maths
 Warmup Questions
@@ -104,6 +103,7 @@ Topic - 7: Searching2
 -------------------------------------------------------------------------------------------------------------------------->
 Topic-8: Sorting -1
 1. https://leetcode.com/problems/kth-largest-element-in-an-array/description/
+2. https://practice.geeksforgeeks.org/problems/inversion-of-array-1587115620/1   ( Inversion count)
 ------------------------------------------------------------------------------------------------------------------------------>
 Topic: Sliding Window
 1. https://leetcode.com/problems/minimum-size-subarray-sum/
