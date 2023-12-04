@@ -29,6 +29,7 @@ Topic-4: Two pointers:
 Topic-5: Sorting 
 1. Inversion count- https://www.geeksforgeeks.org/problems/inversion-of-array-1587115620/1
 2. Sort Colors - https://leetcode.com/problems/sort-colors/description/
+3. Insertion sort, bubble sort, selection sort - github
 -------------------------------------------------------------------------------------------------->
 Topic-6: searching
 1. Count number of zeros - https://www.geeksforgeeks.org/problems/count-the-zeros2550/1
