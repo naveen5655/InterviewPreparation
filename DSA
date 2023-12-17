@@ -129,14 +129,14 @@ Topic-12: Stacks
 2. https://leetcode.com/problems/min-stack/description/
 3. https://leetcode.com/problems/implement-stack-using-queues/description/
 4. https://leetcode.com/problems/largest-rectangle-in-histogram/description/
-5. https://leetcode.com/problems/longest-valid-parentheses/description/
-6. https://leetcode.com/problems/daily-temperatures/description/
-7. https://www.geeksforgeeks.org/problems/expression-contains-redundant-bracket-or-not/1   (I)
+5. https://leetcode.com/problems/daily-temperatures/description/
+6. https://www.geeksforgeeks.org/problems/expression-contains-redundant-bracket-or-not/1   (I)
 
 ---------------------------------------------------------------------------------------------------->
 Topic-11: Queues
 1. https://leetcode.com/problems/implement-stack-using-queues/
 2. https://leetcode.com/problems/implement-queue-using-stacks/description/
+3. 5. https://leetcode.com/problems/longest-valid-parentheses/description/
 --------------------------------------------------------------------------------------------------------->
 Topic: Sliding Window
 1. https://leetcode.com/problems/minimum-size-subarray-sum/
