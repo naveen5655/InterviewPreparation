@@ -136,6 +136,7 @@ Topic-12: Stacks
 ---------------------------------------------------------------------------------------------------->
 Topic-11: Queues
 1. https://leetcode.com/problems/implement-stack-using-queues/
+2. https://leetcode.com/problems/implement-queue-using-stacks/description/
 --------------------------------------------------------------------------------------------------------->
 Topic: Sliding Window
 1. https://leetcode.com/problems/minimum-size-subarray-sum/
