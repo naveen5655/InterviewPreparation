@@ -1,0 +1,62 @@
+For each "getMin" operation, return the minimum element, separated by newline. If the heap is empty, return -(10^9+1).
+=-------------------------------------------------->
+
+
+
+#include <bits/stdc++.h>
+using namespace std;
+
+class BeingZero {
+public:
+    vector<int> v;
+    BeingZero() {
+        
+    }
+
+    void insert(int x) {
+        v.push_back(x);
+        int ch_idx = v.size()-1,p_idx;
+        while(ch_idx>0)
+        {
+            p_idx = (ch_idx-1)/2;
+            if(v[p_idx]>v[ch_idx])
+            {
+               swap(v[p_idx],v[ch_idx]);
+                ch_idx = p_idx;
+            }
+            else
+                break;
+        }
+    }
+
+    int getMin() {
+        // getMin method code here
+        if(v.size()>=1)
+            return v[0];
+        return -(1e9+1);// if empty return -(10**9+1)
+    }
+    void min_heapify(int i)
+    {
+        int lc = 2*i+1;
+        int rc = 2*i+2;
+        int curr = i;
+        if(lc < v.size() && v[lc]<v[curr])
+            curr = lc;
+        if(rc < v.size() && v[rc]<v[curr])
+            curr = rc;
+        if(curr !=i)
+        {
+            swap(v[curr],v[i]);
+            min_heapify(curr);
+        }
+  
+    }
+    void delMin() {
+       if(!v.empty())
+       {
+            v[0] = v[v.size()-1];
+            v.pop_back();
+            min_heapify(0);
+       }
+    }
+};
