@@ -1,0 +1,39 @@
+Output Format
+For each of "pop_front" and "pop_back" operations, print the popped element, separated by newline.
+If the deque is empty, print "Empty". If you are asked to just implement functions return -1000 for pop_front and pop_back in case of no entries in data structure.
+
+------------------------------------------------------------>
+#include<bits/stdc++.h>
+using namespace std;
+
+class BeingZero{
+    public:
+        deque<long long> dq;
+        BeingZero(){
+            
+        }
+        void push_front(long long x){
+            dq.push_front(x);
+        }
+		void push_back(long long x){
+            dq.push_back(x);
+        }
+        long long pop_front(){
+            if(!dq.empty())
+            {
+              long long x = dq.front();
+                dq.pop_front();
+                return x;
+            }
+            return -1000; // in case there are no entries
+        }
+        long long pop_back(){
+            if(!dq.empty())
+            {
+                long long x = dq.back();
+                dq.pop_back();
+                return x;
+            }
+			return -1000; // in case there are no entries
+        }
+};
