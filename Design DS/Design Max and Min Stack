@@ -1,0 +1,41 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+class BeingZero {
+public:
+    vector<vector<int>> solve(vector<int>& arr, int n) {
+        stack<int> st,mxtn,mntn;
+        for(auto i:arr)
+        {
+            st.push(i);
+            if(mxtn.empty())
+                mxtn.push(i);
+            else
+                mxtn.push(max(i,mxtn.top()));
+            if(mntn.empty())
+                mntn.push(i);
+            else
+                mntn.push(min(i,mntn.top()));
+            
+        }
+        vector<vector<int>> ans;
+        vector<int> mx1,mn1;
+        while(!mxtn.empty())
+        {
+            mx1.push_back(mxtn.top());
+            mxtn.pop();
+        }
+        reverse(mx1.begin(),mx1.end());
+        ans.push_back(mx1);
+        while(!mntn.empty())
+        {
+            mn1.push_back(mntn.top());
+            mntn.pop();
+        }
+        reverse(mn1.begin(),mn1.end());
+        ans.push_back(mn1);
+        return ans;
+        
+    }
+};
