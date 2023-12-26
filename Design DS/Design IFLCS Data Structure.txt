@@ -1,0 +1,44 @@
+Design a data structure IFLCS - Insert, First, Last, Clear, Size that provides these functions
+
+insert X : insert a value X into data structure.
+first : return the first value that was inserted in data structure, return -1 if data structure is empty.
+last: return the last value that was inserted in data structure, return -1 if data structure is empty.
+clear: Delete all the items from the data structure.
+size: Return count of items that are there in data structure currently
+Implement a class that supports all of above functions.
+
+
+----------------------------------------------------------------------->
+Solution: 
+#include<bits/stdc++.h>
+using namespace std;
+
+class BeingZero{
+    public:
+        deque<long long > dq;
+        BeingZero(){
+            
+        }
+        void insert(long long x){
+            dq.push_back(x);
+        }
+        long long first(){
+            if(dq.empty())
+                return -1;
+            return dq.front();
+        }
+        long long last(){
+            if(dq.empty())
+                return -1;
+            return dq.back();
+        }
+        int size(){
+            return dq.size();
+        }
+        void clear(){
+            while(!dq.empty())
+            {
+                  dq.pop_back();  
+            }
+        }
+};
