@@ -1,5 +1,11 @@
-1. https://leetcode.com/problems/container-with-most-water/description/
+Direct:
+1. left and right view of tree - recursion 
 2. https://www.interviewbit.com/problems/segregate-0s-and-1s-in-an-array/
+3. 
+
+Pp:
+1.
+2. 
 3. https://leetcode.com/problems/diameter-of-binary-tree/
 4. https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
 5. https://www.interviewbit.com/problems/minimum-lights-to-activate/
@@ -12,7 +18,12 @@
 
 Bs:
 1. https://leetcode.com/problems/number-of-islands/description/
-2.  Vertical , left and right view of tree - recursion and bfs
+2.  Vertical order and bfs
 3. https://leetcode.com/problems/word-search/description/
 4. Jump game 1 & 2
 5. https://leetcode.com/problems/grid-game/description/
+
+MI:
+1.  https://leetcode.com/problems/container-with-most-water/description/
+2.  https://leetcode.com/problems/minimum-difference-in-sums-after-removal-of-elements/
+
