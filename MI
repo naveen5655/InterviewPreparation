@@ -1,28 +1,28 @@
 Direct:
-1. left and right view of tree - recursion 
+1. left and right view of tree - recursion  (I)
 2. https://www.interviewbit.com/problems/segregate-0s-and-1s-in-an-array/
 
 
 Pp: 
 1. https://leetcode.com/problems/diameter-of-binary-tree/
 2. https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
-3. https://www.interviewbit.com/problems/minimum-lights-to-activate/
+3. https://www.interviewbit.com/problems/minimum-lights-to-activate/ (I)
 4. https://leetcode.com/problems/delete-node-in-a-linked-list/description/
-5. https://leetcode.com/problems/rotate-image/
-6. https://leetcode.com/problems/rotate-array/description/
-7. https://leetcode.com/problems/can-place-flowers/description/
-8. https://leetcode.com/problems/count-complete-tree-nodes/description/
-9. https://practice.geeksforgeeks.org/problems/pair-with-greatest-product-in-array3342/1
+5. https://leetcode.com/problems/rotate-image/ 
+6. https://leetcode.com/problems/rotate-array/description/ (I)
+7. https://leetcode.com/problems/can-place-flowers/description/ (I)
+8. https://leetcode.com/problems/count-complete-tree-nodes/description/ (I)
+9. https://practice.geeksforgeeks.org/problems/pair-with-greatest-product-in-array3342/1  (I)
 
 Bs:
 1. https://leetcode.com/problems/number-of-islands/description/
 2.  Vertical order and bfs
-3. https://leetcode.com/problems/word-search/description/
-4. Jump game 1 & 2
-5. https://leetcode.com/problems/grid-game/description/
+3. https://leetcode.com/problems/word-search/description/ (I)
+4. Jump game 1 & 2  (I)
+5. https://leetcode.com/problems/grid-game/description/ (I)
 
 MI (P)
 1.  https://leetcode.com/problems/container-with-most-water/description/
-2.  https://leetcode.com/problems/minimum-difference-in-sums-after-removal-of-elements/\
-3. https://leetcode.com/problems/maximum-candies-allocated-to-k-children/description/
+2.  https://leetcode.com/problems/minimum-difference-in-sums-after-removal-of-elements/\ (I)
+3. https://leetcode.com/problems/maximum-candies-allocated-to-k-children/description/  (I)
 
