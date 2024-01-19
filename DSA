@@ -148,7 +148,7 @@ Topic-12: Heaps
 6. https://leetcode.com/problems/last-stone-weight/description/
 7. https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/description/ ( I)
 ---------------------------------------------------------------------------------------------------------->
-Topic-13: Linkedlist
+Topic-13: Linkedlist-1
 1. https://www.geeksforgeeks.org/problems/find-nk-th-node-in-linked-list/1
 2. https://www.geeksforgeeks.org/problems/flattening-a-linked-list/1
 Assignment Questions:
@@ -160,6 +160,10 @@ Assignment Questions:
 6. https://leetcode.com/problems/linked-list-cycle-ii/description/
 Homework Questions:
 1. https://leetcode.com/problems/add-two-numbers/description/
+
+Linkedlist-2:
+Assignment Questions:
+1. https://leetcode.com/problems/delete-node-in-a-linked-list/description/
 ----------------------------------------------------------------------------------------------------------->
 Topic: Sliding Window
 1. https://leetcode.com/problems/minimum-size-subarray-sum/
