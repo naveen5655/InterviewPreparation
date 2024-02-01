@@ -1,0 +1,43 @@
+#include <vector>
+using namespace std;
+struct BSTNode
+{
+   int data;
+   BSTNode* left,*right;
+   BSTNode(int x)
+   {
+       data = x;
+       left=right=NULL;
+   }
+};
+BSTNode* insert(BSTNode* root,int x)
+{
+    if(root==NULL)
+     return new BSTNode(x);
+    if(x<root->data)
+     root->left = insert(root->left,x);
+    else
+     root->right = insert(root->right,x);
+    return root;
+}
+class BeingZero {
+public:
+    int height(BSTNode* root)
+    {
+        if(root==NULL)
+         return 0;
+        int left = height(root->left);
+        int right = height(root->right);
+        return max(left,right)+1;
+    }
+	int solve(vector<int>& a) 
+	{
+	    BSTNode* tree = NULL;
+	   	for(auto i:a)
+	   	{
+	   	    tree = insert(tree,i);
+	   	}
+	   	return height(tree);
+	   	
+	}
+};
