@@ -200,12 +200,16 @@ Incomplete:
 1. https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/description/
 2. https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/
 3. https://leetcode.com/problems/queue-reconstruction-by-height/description/
+4. https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/
+5. https://www.geeksforgeeks.org/merge-two-balanced-binary-search-trees/
+6. https://leetcode.com/problems/all-elements-in-two-binary-search-trees/description/
 
 Need to solve now:
 1. https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/
 2. https://leetcode.com/problems/path-sum-iii/description/
 3. https://leetcode.com/problems/path-sum-ii/description/
 4. https://leetcode.com/problems/count-complete-tree-nodes/description/
+5. https://leetcode.com/problems/range-sum-of-bst/description/
 
 --------------------------------------------------------------------------------------->
 Topic: Sliding Window
