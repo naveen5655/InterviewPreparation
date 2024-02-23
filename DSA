@@ -196,6 +196,7 @@ Assignments problem
 14. https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
 15. https://leetcode.com/problems/same-tree/description/
 16. https://leetcode.com/problems/trim-a-binary-search-tree/description/
+17. https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/
 Incomplete:
 1. https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/description/
 2. https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/
@@ -205,7 +206,6 @@ Incomplete:
 6. https://leetcode.com/problems/all-elements-in-two-binary-search-trees/description/
 
 Need to solve now:
-1. https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/
 2. https://leetcode.com/problems/path-sum-iii/description/
 3. https://leetcode.com/problems/path-sum-ii/description/
 4. https://leetcode.com/problems/count-complete-tree-nodes/description/
