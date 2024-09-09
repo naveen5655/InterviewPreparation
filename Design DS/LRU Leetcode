@@ -1,0 +1,101 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+struct Node {
+    int data, key;
+    Node* next;
+    Node* prev;
+    
+    Node(int data, int key) {
+        this->data = data;
+        this->key = key;
+        next = prev = NULL;
+    }
+};
+
+class LRUCache {
+public:
+    int cap;
+    Node* head = new Node(-1, -1);
+    Node* tail = new Node(-1, -1);
+    unordered_map<int, Node*> mp;
+    
+    LRUCache(int capacity) {
+        cap = capacity;
+        head->next = tail;
+        tail->prev = head;
+    }
+
+    void addnode(Node* nn) {
+        Node* temp = head->next;
+        nn->next = temp;
+        nn->prev = head;
+        head->next = nn;
+        temp->prev = nn;
+    }
+
+    void deletenode(Node* todel) {
+        Node* delprev = todel->prev;
+        Node* delnext = todel->next;
+        delprev->next = delnext;
+        delnext->prev = delprev;
+    }
+
+    int get(int key) {
+        if (mp.count(key) != 0) {
+            auto address = mp[key];
+            int value = address->data;
+            mp.erase(key);
+            deletenode(address);
+            addnode(address);
+            mp[key] = head->next;
+            cout<<value<<"\n";
+            return value;
+        }
+        cout<<"-1\n";
+        return -1;
+    }
+
+    void put(int key, int value) {
+        if (mp.count(key) != 0) {
+            auto address = mp[key];
+            mp.erase(key);
+            deletenode(address);
+        }
+        if (cap == mp.size()) {
+            mp.erase(tail->prev->key);
+            deletenode(tail->prev);
+        }
+        addnode(new Node(key, value));
+        mp[key] = head->next;
+    }
+    
+    void display()
+    {
+        Node* c = head->next;
+        while(c!=tail)
+        {
+            cout<<c->data<<"-->";
+            c = c->next;
+        }
+    }
+};
+
+int main() {
+    int cap;
+    cin >> cap;
+    LRUCache c(2);
+    
+    c.put(1,1);
+    c.put(2,2);
+    c.get(1);
+    c.put(3,3);
+    c.get(2);
+    c.put(4,4);
+    c.get(1);
+    c.get(3);
+    c.get(4);
+    c.display();
+
+    return 0;
+}
