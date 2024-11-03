@@ -1,0 +1,58 @@
+/*
+
+ Given a set of input strings, group them where one string can be cyclic encoded to another string with other strings.
+Cyclic encoding
+Given input string: “abc” and offset 2,  the encoded string becomes “cde”. “apr” becomes “crt”
+Given input [”abc”, “def”, “gk” , “adef”, “fijk”, “xyz” ], output should be [(”abc”, “def”, “xyz”), (“adef”, “fijk” ), (”gk”)]
+
+
+*/
+
+#include <iostream>
+#include <vector>
+#include <string>
+#include <map>
+using namespace std;
+
+vector<vector<string>> findCyclicEncoding(vector<string>& v) {
+    int n = v.size();
+    map<string, vector<string>> mp;
+
+    for (int i = 0; i < n; i++) {
+        string word = v[i];
+        string key = "";
+
+        // Calculate the cyclic encoding pattern as the key
+        for (int j = 1; j < word.size(); j++) {
+            int diff = (word[j] - word[j - 1] + 26) % 26; // cyclic difference
+            key += to_string(diff) + ",";  // using comma as separator
+        }
+
+        mp[key].push_back(word);
+    }
+
+    // Prepare the answer by grouping strings with the same encoding pattern
+    vector<vector<string>> ans;
+    for (auto& entry : mp) {
+        ans.push_back(entry.second);
+    }
+
+    return ans;
+}
+
+int main() {
+    vector<string> input = {"abc", "def", "gh", "adef", "fijk", "ag", "xy"};
+    vector<vector<string>> result = findCyclicEncoding(input);
+
+    cout << "Grouped cyclically encoded strings:" << endl;
+    for (const auto& group : result) {
+        cout << "(";
+        for (size_t i = 0; i < group.size(); i++) {
+            cout << "\"" << group[i] << "\"";
+            if (i != group.size() - 1) cout << ", ";
+        }
+        cout << ")" << endl;
+    }
+
+    return 0;
+}
