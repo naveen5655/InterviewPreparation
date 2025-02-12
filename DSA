@@ -1,7 +1,6 @@
 Incomplete:
 1. TC
-2. Two pointers
-3. Hashing
+2. Hashing
 ------------------------------------->
 Topic-1: Arrays and Maths
 Warmup Questions
@@ -291,3 +290,8 @@ need to solve:
 10. https://leetcode.com/problems/find-eventual-safe-states/description/
 11. https://leetcode.com/problems/find-the-town-judge/description/
 12. https://leetcode.com/problems/keys-and-rooms/description/
+
+--------------------------------------------------------------------------------------------------------------------->
+
+Topic: 2 pointers.
+1. https://leetcode.com/problems/two-sum/description/
