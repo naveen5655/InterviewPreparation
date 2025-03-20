@@ -1,6 +1,5 @@
 Incomplete:
 1. TC
-2. Hashing
 ------------------------------------->
 Topic-1: Arrays and Maths
 Warmup Questions
@@ -304,3 +303,8 @@ Topic: 2 pointers.
 8. https://leetcode.com/problems/subarray-sum-equals-k/description/ (I)
 9. https://leetcode.com/problems/k-diff-pairs-in-an-array/description/ 
 10. https://leetcode.com/problems/find-k-closest-elements/description/ (I)
+
+--------------------------------------------------------------------------------------------------------------------->
+
+Topic: Hashing
+1. https://leetcode.com/problems/longest-consecutive-sequence/description/
